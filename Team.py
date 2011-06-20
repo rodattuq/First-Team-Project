@@ -1,6 +1,8 @@
 class Team:
 
     def __init__(self):
+	"this my change..! zane/zain!!"
+
         """ Asks for the user input for a noun and stores the noun in
         the instance variable self.word.  Remember a noun is a person,
         place, or thing. """
@@ -23,3 +25,6 @@ class Team:
 t = Team()
 t.reverse_input()
 t.print_in_sentence()
+print 'hello<sldfk'
+print 'am da boss'
+print 'am only practicing'
