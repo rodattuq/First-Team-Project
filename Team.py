@@ -1,6 +1,7 @@
 class Team:
 
     def __init__(self):
+	self.word = raw_input('enter a string: ')
 	"this my change..! zane/zain!!"
 
         """ Asks for the user input for a noun and stores the noun in
@@ -10,13 +11,16 @@ class Team:
         pass
 
     def reverse_input(self):
+	p = self.word
+	p = p[::-1]
+	return p
         """ Changes self.word to its reverse.  For example if
         self.word is 'apples', then it becomes 'selppa'."""
         # TODO by person 1
         pass
     
     def print_in_sentence(self):
-	print 'Today I dreamt of', self.word' ,while walking on the beach.'
+	print 'Today I dreamt of', self.word ,'while walking on the beach.'
 
         """ Insert self.word in the sentence 'Today I dreamt of
         <self.word> while walking on the beach.' replacing <self.word>
@@ -25,8 +29,6 @@ class Team:
         pass
 
 t = Team()
-t.reverse_input()
+print t.reverse_input()
 t.print_in_sentence()
-print 'hello<sldfk'
-print 'am da boss'
-print 'am only practicing'
+
